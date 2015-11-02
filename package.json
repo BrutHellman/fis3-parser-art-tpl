@@ -1,11 +1,8 @@
 {
-  "name": "fis-parser-art-template",
-  "version": "2.0.2",
-  "description": "art-template parser for fis & fis3",
+  "name": "fis3-parser-art-tpl",
+  "version": "1.0.0",
+  "description": "art-template parser for fis3",
   "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
@@ -13,46 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/lwdgit/fis-parser-art-template.git"
+    "url": "git+ssh://git@github.com/BrutHellman/fis3-parser-art-tpl"
   },
   "keywords": [
     "fis",
-    "art-template",
-    "tmod",
-    "template"
+    "art-template"
   ],
   "author": {
     "name": "winsome"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lwdgit/fis-parser-art-template/issues"
+    "url": "https://github.com/BrutHellman/fis3-parser-art-tpl/issues"
   },
-  "homepage": "https://github.com/lwdgit/fis-parser-art-template#readme",
-  "gitHead": "87d7b28e626b01cda04f595df956752afb02bc0e",
-  "_id": "fis-parser-art-template@2.0.2",
-  "_shasum": "117c6420f752997eb676ebc1cd96a149005fbd6e",
-  "_from": "fis-parser-art-template@*",
-  "_npmVersion": "2.14.0",
-  "_nodeVersion": "0.12.4",
-  "_npmUser": {
-    "name": "lwdgit",
-    "email": "1127622940@qq.com"
-  },
-  "dist": {
-    "shasum": "117c6420f752997eb676ebc1cd96a149005fbd6e",
-    "size": 22818,
-    "noattachment": false,
-    "tarball": "http://registry.npm.taobao.org/fis-parser-art-template/download/fis-parser-art-template-2.0.2.tgz"
-  },
-  "maintainers": [
-    {
-      "name": "lwdgit",
-      "email": "1127622940@qq.com"
-    }
-  ],
-  "publish_time": 1441188403293,
-  "_cnpm_publish_time": 1441188403293,
-  "_resolved": "https://registry.npm.taobao.org/fis-parser-art-template/download/fis-parser-art-template-2.0.2.tgz",
+  "homepage": "https://github.com/BrutHellman/fis3-parser-art-tpl#readme",
   "readme": "ERROR: No README data found!"
 }
