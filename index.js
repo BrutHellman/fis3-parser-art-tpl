@@ -192,9 +192,10 @@ module.exports = function(content, file, conf) {
 
     initEngine(conf, file);
 
-    var confName = conf.pageModule || "pModule"
+    var confName = conf.pageModule || "pModule";
+    var extPath = conf.extPath || "";
     // 自动获取路径
-    var data = eval('({' + confName + ': "' + file.subpath.replace(conf.ext, '') + '" })');
+    var data = eval('({' + confName + ': "' + file.subpathNoExt + extPath + '" })');
 
     if (data.release === false) { //如果不release,将文件丢到.deleted,并添加clean标记,在release:end后清除
         needClean = true;

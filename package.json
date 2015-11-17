@@ -1,6 +1,6 @@
 {
   "name": "fis3-parser-art-tpl",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "art-template parser for fis3",
   "main": "index.js",
   "dependencies": {},

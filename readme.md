@@ -1,21 +1,6 @@
+## 1.0.3
+* 增加extPath配置
 
-
-##Usage
-
-
-```javascript
-//fis-conf.js for fis3
-
-fis.match('**.atpl', {
-    parser: fis.plugin('art-template', {
-        native: false,
-        ext 'atpl'
-    }),
-    rExt: 'html'
-})
-
-```
-
-
-  $ fis3 release -d ./output
+## 1.0.2
+* 默认pageModule : 'pModule',可不配置
 
